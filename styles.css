@@ -160,12 +160,12 @@ main>.empty-msg {
   justify-content: space-between;
 }
 
-.popup-form>form>.form-header>h1 {
+.popup-form>form>.form-header > h1 {
   font-size: 1rem;
 }
 
-.popup-form>form>.form-header>i {
-  font-size: 1.2rem;
+.popup-form>form>.form-header > i {
+  font-size: 1.4rem;
   color: gray;
   cursor: pointer;
 }
