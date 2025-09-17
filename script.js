@@ -12,13 +12,15 @@ const myLibrary = [];
 let bookId = crypto.randomUUID();
 
 
-// Book constructor
-function Book(id, title, author, page, isRead) {
-   this.id = id;
-   this.title = title;
-   this.author = author;
-   this.page = page;
-   this.isRead = isRead;
+// Book class
+class Book {
+   constructor(id, title, author, page, isRead) {
+     this.id = id;
+     this.title = title;
+     this.author = author;
+     this.page = page;
+     this.isRead = isRead;
+   }
 }
 
 
